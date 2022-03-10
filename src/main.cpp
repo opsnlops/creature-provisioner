@@ -21,9 +21,12 @@ void setup()
 
     Preferences prefs;
 
+
     Serial.begin(115200);
     while (!Serial && !Serial.available())
         ;
+
+    delay(5000);
 
     Serial.println("Provisioning FeatherS2!");
 
