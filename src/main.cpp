@@ -25,7 +25,7 @@ void setup()
     while (!Serial && !Serial.available())
         ;
 
-    Serial.println("Provisioning ESP32!");
+    Serial.println("Provisioning FeatherS2!");
 
     Serial.println("Wiping out existing NVS...");
     nvs_flash_erase();
